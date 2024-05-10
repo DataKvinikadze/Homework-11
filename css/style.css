@@ -97,3 +97,17 @@ span {
   justify-content: space-between;
   align-items: center;
 }
+
+/* MAIN SECTION CONTENT STYLING */
+
+.text_content .name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.text_content .price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+}
