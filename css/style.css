@@ -45,3 +45,10 @@ span {
   align-items: center;
 }
 
+/* GRID HEADER CONTENT */
+
+#grid-header .item_content {
+  width: 489.9px;
+  display: flex;
+  justify-content: space-between;
+}
