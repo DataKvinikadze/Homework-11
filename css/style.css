@@ -52,3 +52,23 @@ span {
   display: flex;
   justify-content: space-between;
 }
+
+/* GRID HEADER CONTENT STYLING */
+
+.item_content span {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.item_content .first {
+  color: #000000;
+}
+
+.item_content .second {
+  color: #9b9b9b;
+}
+
+.item_content .third {
+  color: #9b9b9b;
+}
+
