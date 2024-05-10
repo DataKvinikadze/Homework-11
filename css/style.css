@@ -77,3 +77,23 @@ span {
 .grid-item {
   background-color: bisque;
 }
+
+/* GRID MAIN SECTION CONTENT */
+
+.grid-item .card {
+  width: 330px;
+  height: 514px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid-item .text_content {
+  width: 142px;
+  height: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
