@@ -15,3 +15,10 @@ span {
   overflow-x: hidden;
   margin: 0 auto;
 }
+
+/* Building Grid Layout */
+
+#grid {
+  display: grid;
+  grid-template-rows: 44.8px 50px 556.58px 59.62px 556.58px;
+}
