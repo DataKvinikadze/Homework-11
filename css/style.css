@@ -72,3 +72,8 @@ span {
   color: #9b9b9b;
 }
 
+/* GRID MAIN SECTION */
+
+.grid-item {
+  background-color: bisque;
+}
