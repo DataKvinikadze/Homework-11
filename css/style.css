@@ -37,3 +37,11 @@ span {
   grid-row: 5;
 }
 
+/* GRID HEADER */
+
+#grid-header {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+}
+
