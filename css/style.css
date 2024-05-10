@@ -22,3 +22,18 @@ span {
   display: grid;
   grid-template-rows: 44.8px 50px 556.58px 59.62px 556.58px;
 }
+
+/* GRID Placement  */
+
+#grid .first_line {
+  grid-row: 1;
+}
+
+#grid .second_line {
+  grid-row: 3;
+}
+
+#grid .third_line {
+  grid-row: 5;
+}
+
