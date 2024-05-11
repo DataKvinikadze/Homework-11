@@ -10,6 +10,10 @@ span {
 
 /* Page */
 
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 #page {
   max-width: 1440px;
   margin: 0 auto;
@@ -18,6 +22,7 @@ span {
 /* Building Grid Layout */
 
 #grid {
+  margin-top: 135px;
   display: grid;
   grid-template-rows: 44.8px 50px 556.58px 59.62px 556.58px;
 }
@@ -39,7 +44,6 @@ span {
 /* GRID HEADER */
 
 #grid-header {
-  background-color: bisque;
   display: flex;
   align-items: center;
 }
@@ -74,12 +78,13 @@ span {
 /* GRID MAIN SECTION */
 
 .grid-item {
-  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* GRID MAIN SECTION CONTENT */
 
-.grid-item .card {
+.second_line .card {
   width: 330px;
   height: 514px;
   display: flex;
@@ -88,13 +93,39 @@ span {
   justify-content: space-between;
 }
 
-.grid-item .text_content {
-  width: 142px;
+.second_line .text_content {
+  width: 163px;
   height: 53px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+/* MAIN SECTION FOR THIRD LINE */
+.third_line .card {
+  width: 330px;
+  height: 549px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* MAIN SECTION CONTENT FOR SECOND LINE */
+.third_line .text_content {
+  width: 163px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.text_content .color {
+  width: 46px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* MAIN SECTION CONTENT STYLING */
